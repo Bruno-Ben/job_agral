@@ -1,0 +1,33 @@
+{
+  "name": "agral_test",
+  "version": "1.0.0",
+  "description": "Web development test.",
+  "main": "dunno",
+  "dependencies": {
+    "jquery": "^3.5.1",
+    "lodash": "^4.17.20",
+    "python-shell": "^2.0.3",
+    "read-package-json": "^3.0.0",
+    "socket.io": "^3.1.0",
+    "webpack": "^5.16.0",
+    "webpack-cli": "^4.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "what"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bruno-Ben/job_agral.git"
+  },
+  "keywords": [
+    "test",
+    "dev"
+  ],
+  "author": "Bruno Benetti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bruno-Ben/job_agral/issues"
+  },
+  "homepage": "https://github.com/Bruno-Ben/job_agral#readme"
+}

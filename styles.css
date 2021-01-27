@@ -1,0 +1,29 @@
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 70px;
+    
+  }
+button:hover {
+    opacity: 0.8;
+  }
+
+
+
+
+
+  body{
+      background-image: url('fundo3.jpg')
+      ;
+  }
+
+.container {
+position: relative;
+z-index: 1;
+max-width: 300px;
+margin: 0 auto;
+}

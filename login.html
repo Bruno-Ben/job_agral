@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Agral</title>
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <center class='content'>
+        <style>
+            .content{
+            position: relative;
+            z-index: 1;
+            background: #FFFFFF;
+            max-width: 270px;
+            max-height: 250px;
+            margin: 0 auto 100px;
+            padding: 70px;
+            text-align: justify;
+            box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+        }
+        </style>
+        <form action="index.html" method="GET" onsubmit="return logar()">
+            <h1>Login Agral</h1>
+            <div id="texto_login_acima">
+
+            </div>
+            <div>
+                <label> 
+                    <p>Digite abaixo o seu texto de boas vindas!</p>
+                    <input type="text" name="mensagem" id="mensagem">
+                </label>
+                
+            </div>
+            <div>
+                <label>
+                    <p>Token</p>
+                    <input type="password" id="token" placeholder="Token" required>
+                </label>
+                
+            </div>
+            <button type="submit" value="Logar">Login</button>
+
+            <div id='texto_login'>
+
+            </div>
+        </form>
+    </center>
+
+</body>
+</html>
